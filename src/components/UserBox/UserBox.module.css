@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(213, 209, 209);
+}
+
+/* UserGrid.module.css */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* exakt två per rad */
+  gap: 1rem;
+  padding: 1rem;
+  justify-items: center; /* centrera varje kort */
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr; /* en per rad på mobil */
+  }
+}
