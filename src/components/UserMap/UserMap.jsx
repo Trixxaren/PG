@@ -6,6 +6,7 @@ const UserMap = () => {
     { id: 2, name: "Emma", age: 29 },
     { id: 3, name: "Alfons", age: 20 },
     { id: 4, name: "Oliver", age: 0 },
+    { id: 5, name, "Hanna", age: 25],
   ];
 
   return (
